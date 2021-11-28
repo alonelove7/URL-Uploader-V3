@@ -18,7 +18,7 @@ else:
 from PIL import Image
 from pyrogram import filters
 from scripts import Scripted
-from database.db import *
+
 from pyrogram import Client as Clinton
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
