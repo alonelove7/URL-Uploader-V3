@@ -1,7 +1,7 @@
 import os
 import logging
 import pyrogram
-import database.database as sql
+import database.db as sql
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -18,7 +18,7 @@ else:
 from PIL import Image
 from pyrogram import filters
 from scripts import Scripted
-from database.database import *
+from database.db import *
 from pyrogram import Client as Clinton
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
